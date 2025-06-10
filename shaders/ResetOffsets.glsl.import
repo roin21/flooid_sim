@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://bfcop1j55lwig"
+path="res://.godot/imported/ResetOffsets.glsl-9fd14a4c8f2f73ab977f416eebc4509b.res"
+
+[deps]
+
+source_file="res://shaders/ResetOffsets.glsl"
+dest_files=["res://.godot/imported/ResetOffsets.glsl-9fd14a4c8f2f73ab977f416eebc4509b.res"]
+
+[params]
+

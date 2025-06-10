@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://dstqbsniiy2ya"
+path="res://.godot/imported/FluidSim2D.glsl-744881f78e3e12a096afb011876c4b21.res"
+
+[deps]
+
+source_file="res://shaders/FluidSim2D.glsl"
+dest_files=["res://.godot/imported/FluidSim2D.glsl-744881f78e3e12a096afb011876c4b21.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://ypk13k6nq1m7"
+path="res://.godot/imported/CalculateOffsets.glsl-ca108e23fe420d16c2022b7c762c5da0.res"
+
+[deps]
+
+source_file="res://shaders/CalculateOffsets.glsl"
+dest_files=["res://.godot/imported/CalculateOffsets.glsl-ca108e23fe420d16c2022b7c762c5da0.res"]
+
+[params]
+

@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://4db2h3w1vcja"]
+
+[ext_resource type="Shader" uid="uid://w4ya5vqvlvv0" path="res://shaders/Particle2D.gdshader" id="1_6t3dy"]
+
+[resource]
+shader = ExtResource("1_6t3dy")
+shader_parameter/velocity_max = 10.0

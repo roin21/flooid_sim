@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://by2ej042ljat6"]
+
+[ext_resource type="Script" uid="uid://bt5kbw8fxhcs8" path="res://scripts/simulation2D.gd" id="1_vmo2h"]
+[ext_resource type="Script" uid="uid://4u1yav2q7eq7" path="res://scripts/ParticleSpawner.gd" id="2_iuv88"]
+[ext_resource type="Script" uid="uid://cgvjcna2uc4fr" path="res://scripts/ParticleDisplay2D.gd" id="3_wpwoq"]
+
+[node name="Simulation" type="Node2D" node_paths=PackedStringArray("particle_spawner", "particle_display")]
+script = ExtResource("1_vmo2h")
+time_scale = 4.415
+gravity = 1.165
+collision_damping = 0.525
+smoothing_radius = 1.705
+pressure_multiplier = 13.77
+near_pressure_multiplier = 26.17
+viscosity_strength = 1.0
+bounds_size = Vector2(40, 30)
+obstacle_size = Vector2(0, 0)
+interaction_radius = 20.0
+interaction_strength = 1000.0
+debug_mode = false
+particle_spawner = NodePath("ParticleSpawner")
+particle_display = NodePath("ParticleDisplay")
+
+[node name="ParticleSpawner" type="Node2D" parent="."]
+script = ExtResource("2_iuv88")
+spawn_size = Vector2(18, 18)
+show_spawn_bounds_gizmos = false
+
+[node name="ParticleDisplay" type="Node2D" parent="."]
+script = ExtResource("3_wpwoq")
+particle_scale = 8.0
+velocity_display_max = 5.0
+update_frequency = 2
+debug_particle_count = 0
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.8, 0.8)

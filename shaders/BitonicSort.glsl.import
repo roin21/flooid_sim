@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://k5s54acl726p"
+path="res://.godot/imported/BitonicSort.glsl-469f9fd6b3626dbe3c1ff551339140a8.res"
+
+[deps]
+
+source_file="res://shaders/BitonicSort.glsl"
+dest_files=["res://.godot/imported/BitonicSort.glsl-469f9fd6b3626dbe3c1ff551339140a8.res"]
+
+[params]
+
